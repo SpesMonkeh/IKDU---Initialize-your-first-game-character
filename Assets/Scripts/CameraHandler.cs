@@ -13,7 +13,7 @@ public class CameraHandler : MonoBehaviour
 	[Header("Camera")]
 	[SerializeField] CinemachineBrain cameraBrain;
 	[SerializeField] CinemachineSmoothPath dollyPath;
-	[SerializeField] CinemachineVirtualCameraBase virtualCam;
+	[SerializeField] CinemachineVirtualCamera virtualCam;
 
 	readonly float waitTimeBeforeInvoke = 2f;
 	
